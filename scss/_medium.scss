@@ -1,0 +1,25 @@
+nav{
+  display:flex;
+  justify-content:space-between;
+  ul{
+    display: flex;
+    justify-content:center;
+    li{
+      flex: 1 1 0;
+    }
+    a{
+      display:block;
+      font-size:1.5rem;
+      padding:1rem;
+    }
+    a.git{
+      background-size: 80%;
+    }
+    a.in{
+      background-size: 80%;
+    }
+  }
+  .social{
+    margin:0;
+  }
+}
