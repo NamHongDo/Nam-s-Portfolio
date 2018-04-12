@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-      <link rel="stylesheet" href="/css/style.css">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title></title>
-  </head>
-  <body >
-    <header>
-      <?php include ('includes/header.php');?>
-    </header>
-
+    <?php
+    define("TITLE", "Home | Nam's Portfolio");
+    include('includes/header.php');
+    ?>
     <main>
       <div id="introSegment">
         <div id="briefIntro">
@@ -30,62 +21,34 @@
         <h4>Web Design</h4>
       </div>
       <div id="flexBox0">
-        <div class="homeBoxes">
-          <h3> Modern Technology </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus orci luctus et
-          </p>
-        </div>
-        <div class="homeBoxes">
-          <h3> Modern Technology </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus orci luctus et
-          </p>
-        </div>
-        <div class="homeBoxes">
-          <h3> Original photos </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus orci luctus et
-          </p>
-        </div>
+          <?php
+            foreach($webFeatures as $feature){
+              echo "<div class=\"homeBoxes\">";
+              echo "<h3>$feature[header]</h3>";
+              echo "<p>$feature[description]</p>";
+              echo "</div>";
+            }
+          ?>
       </div>
-      <div class="homeButton">
-        <a>Accomplishment</a>
+      <div class="homeButtonBox">
+        <a id="btn1">Accomplishment</a>
       </div>
       <div  id="photoParallax" class="parallax">
           <h4>Photography</h4>
       </div>
       <div id="flexBox0">
-        <div class="homeBoxes">
-          <h3> Modern Technology </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus orci luctus et
-          </p>
+        <?php
+          foreach($photoFeatures as $feature){
+            echo "<div class=\"homeBoxes\">";
+            echo "<h3> $feature[header]</h3>";
+            echo "<p> $feature[description]</p>";
+            echo "</div>";
+          }
+        ?>
         </div>
-        <div class="homeBoxes">
-          <h3> Modern Technology </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus orci luctus et
-          </p>
-        </div>
-        <div class="homeBoxes">
-          <h3> Original photos </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus orci luctus et
-          </p>
-        </div>
-        </div>
-        <div class="homeButton">
-          <a>Accomplishment</a>
+        <div class="homeButtonBox">
+          <a id="btn2">Accomplishment</a>
         </div>
       </div>
-
     </main>
-
-    <footer>
       <?php include ('includes/footer.php');?>
-    </footer>
-
-    <script src="/js/toggleNav.js"></script>
-  </body>
-</html>
