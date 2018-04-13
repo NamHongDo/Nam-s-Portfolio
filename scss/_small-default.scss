@@ -12,7 +12,7 @@ body{
 h1{
   font-family:$headerFont;
   font-weight: $boldWeight;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: $firstColor;
   text-align: center;
   padding:1rem;
@@ -168,16 +168,90 @@ nav {
         transform: translate(-50%, -50%)
       }
       #btn1:hover{
-        color: $fourthColor;
-        border:2px solid $fourthColor;
+        color: $fifthColor;
+        border:2px solid $fifthColor;
         cursor: pointer;
       }
       #btn2:hover{
-        color: $fifthColor;
-        border:2px solid $fifthColor;
+        color: $fourthColor;
+        border:2px solid $fourthColor;
         cursor: pointer;
       }
     }
 
 /*----------- END HOME -----------*/
+/*----------- WEBSITE -----------*/
+    #main1{
+      h1{
+        color:$fifthColor;
+      }
+    }
+    #flexBox1{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-around;
+      h4{
+        text-align: center;
+        padding:2rem;
+        font-size:2rem;
+      }
+      p{
+        color:$firstColor;
+        padding: 0 3rem;
+      }
+      .websiteContainers{
+        border-radius: 10px;
+        position:relative;
+        flex-basis:375px;
+        figure{
+          width:100%;
+          img{
+            width: 100%;
+            padding:1vw;
+          }
+        }
+      }
+      #hoverDiv{
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:1;
+        background:rgba(255, 51, 51,0.7);
+        display:none;
+        border-radius: 10px;
+        a{
+          text-align:center;
+          background:rgba(255, 51, 51,0.5);
+          color:$secondColor;
+          border:2px solid $secondColor;
+          padding: 1rem;
+          border-radius:10px;
+          font-size:2rem;
+          position:absolute;
+          top:30%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          cursor:pointer;
+        }
+    }
+        .websiteContainers:hover #hoverDiv{
+        display:block;
+      }
+      #webBox1{
+        background:url(/images/CPpic2.jpg);
+        h4{
+          color:#D26A4A;
+        }
+      }
+      #webBox2{
+        background:url(/images/NSSpic3.jpg) center;
+        h4{
+          color:#333;
+        }
+      }
+    }
+
+/*----------- END WEBSITE -----------*/
 /*----------- END MAIN -----------*/

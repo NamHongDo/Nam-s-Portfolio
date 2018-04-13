@@ -23,3 +23,19 @@ nav{
     margin:0;
   }
 }
+
+/*----------- WEBSITE -----------*/
+
+    #flexBox1{
+      .websiteContainers{
+        figure{
+          width:100%;
+          img{
+            width: 100%;
+          }
+        }
+        flex-basis:450px;
+      }
+    }
+
+/*----------- END WEBSITE -----------*/
