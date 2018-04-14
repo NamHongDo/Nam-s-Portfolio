@@ -306,6 +306,11 @@ nav {
       color: #333; }
 
 /*----------- END WEBSITE -----------*/
+/*----------- WEBSITE TEMPLATE -----------*/
+#templateWrapper {
+  max-width: 375px; }
+
+/*----------- END WEBSITE TEMPLATE -----------*/
 /*----------- END MAIN -----------*/
 @media only screen and (min-width: 35rem) {
   nav {
@@ -333,4 +338,9 @@ nav {
       width: 100%; }
       #flexBox1 .websiteContainers figure img {
         width: 100%; }
-  /*----------- END WEBSITE -----------*/ }
+  /*----------- END WEBSITE -----------*/
+  /*----------- WEBSITE TEMPLATE -----------*/
+  #templateWrapper {
+    max-width: 80vw;
+    margin: 0 auto; }
+  /*----------- END WEBSITE TEMPLATE -----------*/ }
