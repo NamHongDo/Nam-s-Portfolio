@@ -3,15 +3,15 @@
   $navItems=array(
     array(
       slug      =>"index.php",
-      tittle    => "Biography"
+      title    => "Biography"
     ),
     array(
       slug      =>"websites.php",
-      tittle    => "Websites"
+      title    => "Websites"
     ),
     array(
       slug      =>"photography.php",
-      tittle    => "Photography"
+      title    => "Photography"
     ),
   );
 
@@ -151,5 +151,57 @@ $websDetails=array(
         orci luctus et"
       ),
     );
+    //albums cover on photography.php
+     $albumListing=array(
+        array(
+          title=>"Copper Moon",
+          cover=>"CPimg1",
+          albumKey=>"CM00"
+        ),
+        array(
+          title=>"Pulp",
+          cover=>"PPimg1",
+          albumKey=>"PP01"
+        ),
+        array(
+          title=>"Deanna and Jeremy Wedding",
+          cover=>"De&Jeimg1",
+          albumKey=>"DeJe02"
+        ),
+        array(
+          title=>"Personal Collection",
+          cover=>"PCimg1",
+          albumKey=>"PC03"
+        ),
+     );
 
+     //albums detail on album-detail.php
+     $albumsDetails=array(
+       "CM00" => array(
+         title=>"The Copper Moon Social Media",
+         description=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis.
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          Donec convallis ligula in mauris venenatis, vitae tempor turpis laoreet.",
+         directory=>"CopperMoon"
+       ),
+       "PP01" => array(
+         title=>"Pulp (Lakewood,OH) Social Media",
+         description=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis.
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          Donec convallis ligula in mauris venenatis, vitae tempor turpis laoreet.",
+        directory=>"Pulp"
+       ),
+       "DeJe02" => array(
+         title=>"Deanna & Jeremy Wedding",
+         description=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis.
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          Donec convallis ligula in mauris venenatis, vitae tempor turpis laoreet.",
+         directory=>"Deanna"
+       ),
+       "PC03" => array(
+         title=>"Personal Collection",
+         description=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec convallis ligula in mauris venenatis, vitae tempor turpis laoreet. Suspendisse ornare massa est, at accumsan nunc varius at. Curabitur commodo diam in pretium dapibus. Aenean iaculis ante mi, mattis euismod massa lacinia eget. Nam sapien justo, imperdiet sed iaculis vel, semper sit amet mi. Nam mollis faucibus nisi eu scelerisque. Sed eget justo porta, fermentum leo at, tincidunt leo. Cras gravida leo quis malesuada tempor.",
+         directory=>"PersonalCollection"
+       ),
+     );
  ?>

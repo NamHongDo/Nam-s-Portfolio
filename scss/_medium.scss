@@ -45,3 +45,28 @@ nav{
       margin:0 auto;
     }
 /*----------- END WEBSITE TEMPLATE -----------*/
+/*----------- PHOTOGRAPHY  -----------*/
+      #flexbox2{
+        position: relative;
+        .textWrapper{
+          height:6rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          h2{
+             margin: 0
+          }
+        }
+        .albumsWrapper{
+          flex-basis:450px;
+          height:450px;
+          figure{
+            width:100%;
+            img{
+              width: 100%;
+            }
+          }
+        }
+      }
+
+/*----------- END PHOTOGRAPHY  -----------*/

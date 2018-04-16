@@ -48,13 +48,13 @@ nav {
       padding: 10px;
     }
      li:first-child a:hover{
-      color:$fourthColor;
+    color:$sixthColor;
     }
     li:nth-child(2) a:hover{
      color:$fifthColor;
    }
    li:nth-child(3) a:hover{
-    color:$sixthColor;
+    color:$fourthColor;
   }
     a.git{
       background:url(/images/gitlogo.png) no-repeat center;
@@ -194,15 +194,18 @@ nav {
         text-align: center;
         padding:2rem;
         font-size:2rem;
+        color:black;
       }
       p{
         color:$firstColor;
         padding: 0 3rem;
       }
       .websiteContainers{
+        background-color:rgba(255, 0, 0,0.7);
         border-radius: 10px;
         position:relative;
         flex-basis:375px;
+        margin-bottom:3rem;
         figure{
           width:100%;
           img{
@@ -211,47 +214,36 @@ nav {
           }
         }
       }
-      #hoverDiv{
-        width:100%;
-        height:100%;
-        position:absolute;
-        top:0;
-        left:0;
-        z-index:1;
+      #hover1{
         background:rgba(255, 51, 51,0.7);
-        display:none;
-        border-radius: 10px;
-        a{
-          text-align:center;
-          background:rgba(255, 51, 51,0.5);
-          color:$secondColor;
-          border:2px solid $secondColor;
-          padding: 1rem;
-          border-radius:10px;
-          font-size:2rem;
-          position:absolute;
-          top:30%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          cursor:pointer;
-        }
-    }
-        .websiteContainers:hover #hoverDiv{
+      }
+        .websiteContainers:hover .hoverDiv{
         display:block;
       }
-      #webBox1{
-        background:url(/images/CPpic2.jpg);
-        h4{
-          color:#D26A4A;
-        }
-      }
-      #webBox2{
-        background:url(/images/NSSpic3.jpg) center;
-        h4{
-          color:#333;
-        }
-      }
     }
+    .hoverDiv{
+      width:100%;
+      height:100%;
+      position:absolute;
+      top:0;
+      left:0;
+      z-index:1;
+      display:none;
+      border-radius: 10px;
+      a{
+        text-align:center;
+        color:$secondColor;
+        border:2px solid $secondColor;
+        padding: 1rem;
+        border-radius:10px;
+        font-size:2rem;
+        position:absolute;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor:pointer;
+      }
+  }
 
 /*----------- END WEBSITE -----------*/
 /*----------- WEBSITE TEMPLATE -----------*/
@@ -259,4 +251,53 @@ nav {
       max-width:375px;
     }
 /*----------- END WEBSITE TEMPLATE -----------*/
+/*----------- PHOTOGRAPHY  -----------*/
+    #main2{
+        h1{
+          color:$fourthColor;
+        }
+      }
+      #flexbox2{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        .albumsWrapper{
+          background-color:$fourthColor;
+          border:2px solid $fourthColor;
+          flex-basis: 375px;
+          height:375px;
+          position:relative;
+          margin-bottom:3rem;
+          border-radius:10px;
+          figure{
+            width:100%;
+            img{
+              width: 100%;
+            }
+          }
+        }
+        #hover2{
+          background:rgba(66, 133, 244,0.7);
+        }
+          .albumsWrapper:hover .hoverDiv{
+          display:block;
+        }
+      }
+      #flexbox3{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        .photoWrap{
+          flex-basis:375px;
+          margin-bottom:3rem;
+          figure{
+            width:100%;
+            img{
+              width: 100%;
+              image-orientation: from-image;
+            }
+          }
+        }
+      }
+/*----------- END PHOTOGRAPHY  -----------*/
 /*----------- END MAIN -----------*/
