@@ -173,47 +173,64 @@ nav {
 /*----------- HOME -----------*/
 #introSegment {
   height: 500px;
-  background: url(/images/introPic.jpg) no-repeat center; }
-  #introSegment h1 {
-    padding-top: 10rem; }
+  background: url(/images/nam.jpg) no-repeat center; }
 
 #bio {
   width: 80vw;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 3rem 0; }
+  #bio h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+    #bio h1 #span1 {
+      color: #ff3333; }
+    #bio h1 #span2 {
+      color: #333; }
+    #bio h1 #span3 {
+      color: #1c447d; }
+  #bio p {
+    padding: 0;
+    line-height: 3rem; }
+    #bio p span {
+      display: inline-block;
+      width: 2rem; }
 
 .parallax h4 {
   padding-top: 8rem;
   text-align: center;
   font-size: 4rem;
-  color: #fff; }
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000; }
 
 #webParallax {
-  background: url(/images/PoliceMen.jpg) no-repeat center;
+  background: url(/images/computersetup.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   /* Set a specific height */
   height: 350px; }
 
 #photoParallax {
-  background: url(/images/midairkid.jpg) no-repeat center;
+  background: url(/images/photogear.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   /* Set a specific height */
   height: 350px; }
 
 #flexBox0 {
-  width: 80vw;
+  width: 85vw;
   display: flex;
-  flex: wrap;
-  margin: 3rem auto; }
+  flex-wrap: wrap;
+  margin: 3rem auto;
+  justify-content: space-between; }
   #flexBox0 h3 {
     text-align: center;
     font-size: 2rem; }
   #flexBox0 p {
-    text-align: center; }
+    text-align: center;
+    line-height: 2.5rem; }
   #flexBox0 .homeBoxes {
-    flex: 1 1 0;
-    padding: 0 2rem; }
+    flex-basis: 350px; }
     #flexBox0 .homeBoxes:first-child h3 {
       color: #4285f4; }
     #flexBox0 .homeBoxes:nth-child(2) h3 {
@@ -232,7 +249,7 @@ nav {
     border: 2px solid #333;
     padding: 1.5rem;
     border-radius: 10px;
-    font-size: 3rem;
+    font-size: 2rem;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -347,6 +364,17 @@ nav {
 
 /*----------- END PHOTOGRAPHY  -----------*/
 /*----------- END MAIN -----------*/
+/*----------- FOOTER  -----------*/
+#footer {
+  height: 10rem;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #footer h2 {
+    color: #fff; }
+
+/*----------- END FOOTER  -----------*/
 @media only screen and (min-width: 35rem) {
   nav {
     display: flex;

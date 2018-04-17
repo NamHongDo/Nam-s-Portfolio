@@ -4,18 +4,18 @@
     ?>
     <main>
       <div id="introSegment">
-        <div id="briefIntro">
-          <h1> NAM DO</h1>
-          <h2> Web Designer & Photographer</h2>
-        </div>
+
       </div>
       <div id="bio">
-        <h1> About Me</h1>
+        <h1> <span id="span1">Web Designer</span> <span id="span2">&</span> <span id="span3">Photographer</span></h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec convallis ligula in mauris venenatis, vitae tempor turpis laoreet. Suspendisse ornare massa est, at accumsan nunc varius at. Curabitur commodo diam in pretium dapibus. Aenean iaculis ante mi, mattis euismod massa lacinia eget. Nam sapien justo, imperdiet sed iaculis vel, semper sit amet mi. Nam mollis faucibus nisi eu scelerisque. Sed eget justo porta, fermentum leo at, tincidunt leo. Cras gravida leo quis malesuada tempor.
-
-      Curabitur vehicula dui vitae mattis tristique. Quisque cursus quam urna, id luctus tortor placerat sed. Nulla consequat, augue nec fringilla feugiat, lacus dolor gravida risus, molestie consequat erat risus at mi. Integer id lacinia tellus, quis commodo metus. Pellentesque vitae massa interdum, molestie nulla ac, ultrices urna. Vestibulum ex dui, finibus sit amet euismod non, mattis a nunc. Donec a fermentum lorem. Vivamus tincidunt volutpat lectus. Etiam sodales tempus dolor, a venenatis ex posuere vitae. Aenean semper mi nec odio interdum, id ullamcorper ex congue. Suspendisse sit amet mi vehicula, fermentum lorem ut, elementum purus. Fusce gravida, est feugiat congue pharetra, nulla augue vestibulum massa, sed efficitur lacus neque congue urna. Quisque dui urna, finibus quis lorem quis, consequat accumsan metus.
-        </p>
+          <span></span>Started out as
+          hobbies, web design and photography have slowly become
+          my life's passion. I have a vision of creating breathtaking professional
+          websites where I use my skillset in photography to tell my client's story.
+          I constantly keep up with the modern trends and technology to make sure
+          my craft is well made.
+        </P>
       </div>
       <div id="webParallax" class="parallax">
         <h4>Web Design</h4>

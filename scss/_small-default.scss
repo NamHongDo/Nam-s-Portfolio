@@ -87,14 +87,34 @@ nav {
 /*----------- HOME -----------*/
  #introSegment{
   height: 500px;
-   background:url(/images/introPic.jpg)no-repeat center;
-   h1{
-     padding-top: 10rem;
-   }
+   background:url(/images/nam.jpg)no-repeat center;
  }
  #bio{
    width: 80vw;
    margin:0 auto;
+   margin-bottom:$marginSpace;
+   padding: 3rem 0;
+   h1{
+     padding-top:2rem;
+     padding-bottom:2rem;
+     #span1{
+       color: $fifthColor;
+     }
+     #span2{
+       color: $firstColor;
+     }
+     #span3{
+       color:$fontColor;
+     }
+   }
+   p{
+     padding:0;
+     line-height: 3rem;
+     span{
+      display:inline-block;
+      width: 2rem;
+     }
+   }
  }
  .parallax{
    h4{
@@ -102,37 +122,39 @@ nav {
     text-align:center;
      font-size:4rem;
      color: $secondColor;
+     text-shadow: 2px 2px 4px #000000;
    }
  }
     #webParallax{
-          background:url(/images/PoliceMen.jpg)no-repeat center;
+          background:url(/images/computersetup.jpg)no-repeat center;
           background-size:cover;
           background-attachment:fixed;
           /* Set a specific height */
           height: 350px;
     }
     #photoParallax{
-      background:url(/images/midairkid.jpg)no-repeat center;
+      background:url(/images/photogear.jpg)no-repeat center;
       background-size:cover;
       background-attachment:fixed;
       /* Set a specific height */
       height: 350px;
     }
     #flexBox0{
-      width:80vw;
+      width:85vw;
       display:flex;
-      flex:wrap;
+      flex-wrap:wrap;
       margin:3rem auto ;
+      justify-content: space-between;
       h3{
         text-align:center;
         font-size: 2rem;
       }
       p{
         text-align:center;
+        line-height:2.5rem;
       }
       .homeBoxes{
-        flex: 1 1 0;
-        padding: 0 2rem;
+        flex-basis:350px;
           &:first-child{
               h3{
                 color:$fourthColor;
@@ -161,7 +183,7 @@ nav {
         border:2px solid $firstColor;
         padding: 1.5rem;
         border-radius:10px;
-        font-size:3rem;
+        font-size:2rem;
         position:absolute;
         top:30%;
         left: 50%;
@@ -301,3 +323,15 @@ nav {
       }
 /*----------- END PHOTOGRAPHY  -----------*/
 /*----------- END MAIN -----------*/
+/*----------- FOOTER  -----------*/
+#footer{
+  height:10rem;
+  background-color:$firstColor;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  h2{
+    color:$secondColor;
+  }
+}
+/*----------- END FOOTER  -----------*/

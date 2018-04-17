@@ -3,7 +3,7 @@ define ("TITLE", "Photography | Nam's Portfolio");
 include('includes/header.php');
 ?>
     <main id="main2">
-      <h1>Phtography</h1></h1>
+      <h1>Photography</h1></h1>
       <div id="flexbox2">
         <?php
           foreach($albumListing as $album){
