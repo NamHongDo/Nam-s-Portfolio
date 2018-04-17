@@ -266,7 +266,8 @@ nav {
 /*----------- END HOME -----------*/
 /*----------- WEBSITE -----------*/
 #main1 h1 {
-  color: #ff3333; }
+  color: #ff3333;
+  padding: 3rem 0; }
 
 #flexBox1 {
   display: flex;
@@ -285,7 +286,8 @@ nav {
     border-radius: 10px;
     position: relative;
     flex-basis: 375px;
-    margin-bottom: 3rem; }
+    padding-bottom: 2rem;
+    margin-bottom: 4rem; }
     #flexBox1 .websiteContainers figure {
       width: 100%; }
       #flexBox1 .websiteContainers figure img {
@@ -349,6 +351,8 @@ nav {
   #flexbox2 .albumsWrapper:hover .hoverDiv {
     display: block; }
 
+/*----------- END PHOTOGRAPHY  -----------*/
+/*----------- PHOTOGRAPHY TEMPLATE -----------*/
 #flexbox3 {
   display: flex;
   flex-wrap: wrap;
@@ -359,14 +363,15 @@ nav {
     #flexbox3 .photoWrap figure {
       width: 100%; }
       #flexbox3 .photoWrap figure img {
+        height: 375px;
         width: 100%;
         image-orientation: from-image; }
 
-/*----------- END PHOTOGRAPHY  -----------*/
+/*----------- END PHOTOGRAPHY TEMPLATE -----------*/
 /*----------- END MAIN -----------*/
 /*----------- FOOTER  -----------*/
 #footer {
-  height: 10rem;
+  height: 8rem;
   background-color: #333;
   display: flex;
   align-items: center;
@@ -403,9 +408,23 @@ nav {
         width: 100%; }
   /*----------- END WEBSITE -----------*/
   /*----------- WEBSITE TEMPLATE -----------*/
-  #templateWrapper {
+  .templateWrapper {
+    padding: 4rem 0;
     max-width: 80vw;
     margin: 0 auto; }
+    .templateWrapper h1 {
+      padding-bottom: 5rem; }
+    .templateWrapper p {
+      padding: 3rem 0;
+      text-align: center;
+      line-height: 3rem; }
+  #templateWrapper1 figure {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    #templateWrapper1 figure img {
+      width: 80%; }
   /*----------- END WEBSITE TEMPLATE -----------*/
   /*----------- PHOTOGRAPHY  -----------*/
   #flexbox2 {
@@ -424,4 +443,14 @@ nav {
         width: 100%; }
         #flexbox2 .albumsWrapper figure img {
           width: 100%; }
-  /*----------- END PHOTOGRAPHY  -----------*/ }
+  /*----------- END PHOTOGRAPHY  -----------*/
+  /*----------- PHOTOGRAPHY TEMPLATE -----------*/
+  #flexbox3 {
+    justify-content: space-around; }
+    #flexbox3 .photoWrap {
+      flex-basis: 400px; }
+      #flexbox3 .photoWrap figure {
+        width: 100%; }
+        #flexbox3 .photoWrap figure img {
+          width: 100%; }
+  /*----------- END PHOTOGRAPHY TEMPLATE -----------*/ }

@@ -64,20 +64,20 @@
     $websListing=array(
       array(
         header      =>"The Copper Moon",
-        description =>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-          orci luctus et",
+        description =>"As downtown Cleveland has been attracting more residents, many
+        coffee shops were opened up to meet the demand. In order to keep a competitive
+        edge, the Copper Moon owner wanted a website to promote his business.
+         ",
         display     =>"CMpic1",
-        background  =>"CMpic2",
         templateKey =>"CM0"
         ),
         array(
           header      =>"North Shore Safety",
-          description =>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-           Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-            orci luctus et",
+          description =>"North Shore Safety's focus is the development, manufacture and
+          support of safety trade products targeting markets of extreme
+          environmental applications. My job was to build a brand new website
+          which is responsive which also allows the company to update their content.",
           display     =>"NSSpic1",
-          background  =>"NSSpic2",
           templateKey =>"NSS1"
           ),
           array(
@@ -86,7 +86,6 @@
              Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
               orci luctus et",
             display     =>"EApic1",
-            background  =>"EApic2",
             templateKey =>"EA2"
             ),
     );
@@ -98,9 +97,12 @@ $websDetails=array(
       photo2=>"CMpic4",
       photo3=>"CMpic5",
       photo4=>"CMpic6",
-      description1=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et",
+      description1=>"The Copper Moon is a five-year winner of Café of the Year
+      in Downtown Cleveland. With 11 years experience working with coffee brews,
+      the owner has developed and collected an impresive number of 250 unique
+      and tasty drinks</br></br>
+      As a frequent customer to the shop, I offered the owner to build him a
+      website to show case his craft and improve the shop's online presence  ",
       description2=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
        Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
         orci luctus et",
@@ -117,9 +119,14 @@ $websDetails=array(
       photo2=>"NSSpic4",
       photo3=>"NSSpic5",
       photo4=>"NSSpic6",
-      description1=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et",
+      description1=>"North Shore Safety is a privately held company founded in
+      1996. The company's focus is the development, manufacture and support of
+      safety trade products targeting markets of extreme environmental
+      applications</br></br>
+      I was contacted by the company international sale manager rebuild their
+      old website which was built in 2008. The company wanted the new website to
+      be mobile friendly, and the ability to publish their new products on their
+      site by themselves in the future. ",
       description2=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
        Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
         orci luctus et",
@@ -178,28 +185,18 @@ $websDetails=array(
      $albumsDetails=array(
        "CM00" => array(
          title=>"The Copper Moon Social Media",
-         description=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis.
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-          Donec convallis ligula in mauris venenatis, vitae tempor turpis laoreet.",
          directory=>"CopperMoon"
        ),
        "PP01" => array(
          title=>"Pulp (Lakewood,OH) Social Media",
-         description=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis.
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-          Donec convallis ligula in mauris venenatis, vitae tempor turpis laoreet.",
         directory=>"Pulp"
        ),
        "DeJe02" => array(
          title=>"Deanna & Jeremy Wedding",
-         description=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis.
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-          Donec convallis ligula in mauris venenatis, vitae tempor turpis laoreet.",
          directory=>"Deanna"
        ),
        "PC03" => array(
          title=>"Personal Collection",
-         description=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec convallis ligula in mauris venenatis, vitae tempor turpis laoreet. Suspendisse ornare massa est, at accumsan nunc varius at. Curabitur commodo diam in pretium dapibus. Aenean iaculis ante mi, mattis euismod massa lacinia eget. Nam sapien justo, imperdiet sed iaculis vel, semper sit amet mi. Nam mollis faucibus nisi eu scelerisque. Sed eget justo porta, fermentum leo at, tincidunt leo. Cras gravida leo quis malesuada tempor.",
          directory=>"PersonalCollection"
        ),
      );

@@ -11,7 +11,9 @@ include('includes/header.php');
         echo "<h4>$web[header]</h4>";
         echo "<figure><img src=\"images/websites/$web[display].jpg\"/></figure>";
         echo "<p>$web[description]</p>";
-        echo "<div id=\"hover1\"class=\"hoverDiv\"><a href=\"website-detail.php?item=$web[templateKey]\">The Process</a></div>";
+        echo "<div id=\"hover1\"class=\"hoverDiv\">
+        <a href=\"website-detail.php?item=$web[templateKey]\">
+        The Process</a></div>";
         echo "</div>";
       }
     ?>

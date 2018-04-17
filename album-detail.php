@@ -11,12 +11,10 @@ include('includes/header.php');
  }
 ?>
 <main>
-
+  <div id="templateWrapper2" class="templateWrapper">
     <?php
       echo "<h1>$albumDetail[title]</h1>";
       $dirname= "images/photography/$albumDetail[directory]/";
-      echo "directory is: $albumDetail[directory]";
-      echo "$albumDetail[description]";
       $images = glob($dirname."*.jpg");
       echo "<div id=\"flexbox3\">";
       foreach($images as $image){
@@ -26,4 +24,6 @@ include('includes/header.php');
       };
       echo "</div>";
     ?>
+  </div>
 </main>
+<?php include ('includes/footer.php');?>

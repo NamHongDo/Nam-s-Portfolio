@@ -12,17 +12,15 @@ include('includes/header.php');
  }
 ?>
  <main>
-   <div id=templateWrapper>
+   <div id="templateWrapper1" class="templateWrapper">
   <?php
     echo "<h1>$webDetail[title]</h1>";
     echo "<figure><img src=\"images/websites/$webDetail[photo1].jpg\"/></figure>";
     echo "<p>$webDetail[description1]</p>";
     echo "<figure><img src=\"images/websites/$webDetail[photo2].jpg\"/></figure>";
-    echo "<p>$webDetail[description2]</p>";
     echo "<figure><img src=\"images/websites/$webDetail[photo3].jpg\"/></figure>";
-    echo "<p>$webDetail[description3]</p>";
     echo "<figure><img src=\"images/websites/$webDetail[photo4].jpg\"/></figure>";
-    echo "<p>$webDetail[description4]</p>";
   ?>
   </div>
  </main>
+<?php include ('includes/footer.php');?>

@@ -206,6 +206,7 @@ nav {
     #main1{
       h1{
         color:$fifthColor;
+        padding: 3rem 0;
       }
     }
     #flexBox1{
@@ -227,7 +228,8 @@ nav {
         border-radius: 10px;
         position:relative;
         flex-basis:375px;
-        margin-bottom:3rem;
+        padding-bottom:2rem;
+        margin-bottom:4rem;
         figure{
           width:100%;
           img{
@@ -305,6 +307,8 @@ nav {
           display:block;
         }
       }
+/*----------- END PHOTOGRAPHY  -----------*/
+/*----------- PHOTOGRAPHY TEMPLATE -----------*/
       #flexbox3{
         display:flex;
         flex-wrap:wrap;
@@ -315,17 +319,18 @@ nav {
           figure{
             width:100%;
             img{
+              height: 375px;
               width: 100%;
               image-orientation: from-image;
             }
           }
         }
       }
-/*----------- END PHOTOGRAPHY  -----------*/
+/*----------- END PHOTOGRAPHY TEMPLATE -----------*/
 /*----------- END MAIN -----------*/
 /*----------- FOOTER  -----------*/
 #footer{
-  height:10rem;
+  height:8rem;
   background-color:$firstColor;
   display:flex;
   align-items: center;

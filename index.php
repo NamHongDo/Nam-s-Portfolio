@@ -31,7 +31,7 @@
           ?>
       </div>
       <div class="homeButtonBox">
-        <a id="btn1">Accomplishment</a>
+        <a id="btn1" href="websites.php">Accomplishment</a>
       </div>
       <div  id="photoParallax" class="parallax">
           <h4>Photography</h4>
@@ -47,7 +47,7 @@
         ?>
         </div>
         <div class="homeButtonBox">
-          <a id="btn2">Accomplishment</a>
+          <a id="btn2" href="photography.php">Accomplishment</a>
         </div>
       </div>
     </main>

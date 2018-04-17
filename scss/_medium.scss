@@ -40,9 +40,30 @@ nav{
 
 /*----------- END WEBSITE -----------*/
 /*----------- WEBSITE TEMPLATE -----------*/
-    #templateWrapper{
+    .templateWrapper{
+      padding:4rem 0;
       max-width:80vw;
-      margin:0 auto;
+        margin:0 auto;
+        h1{
+          padding-bottom:5rem;
+        }
+        p{
+          padding:3rem 0;
+          text-align:center;
+          line-height:3rem;
+        }
+    }
+    #templateWrapper1{
+
+      figure{
+        height:600px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        img{
+          width: 80%;
+        }
+      }
     }
 /*----------- END WEBSITE TEMPLATE -----------*/
 /*----------- PHOTOGRAPHY  -----------*/
@@ -67,6 +88,19 @@ nav{
             }
           }
         }
-      }
-
+    }
 /*----------- END PHOTOGRAPHY  -----------*/
+/*----------- PHOTOGRAPHY TEMPLATE -----------*/
+#flexbox3{
+  justify-content: space-around;
+  .photoWrap{
+    flex-basis:400px;
+    figure{
+      width:100%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+/*----------- END PHOTOGRAPHY TEMPLATE -----------*/
