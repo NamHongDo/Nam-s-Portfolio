@@ -4,10 +4,9 @@
     ?>
     <main>
       <div id="introSegment">
-
       </div>
       <div id="bio">
-        <h1> <span id="span1">Web Designer</span> <span id="span2">&</span> <span id="span3">Photographer</span></h1>
+        <h1> <span id="span1">WebDesigner</span> <span id="span2">&</span> <span id="span3">Photographer</span></h1>
         <p>
           <span></span>Started out as
           hobbies, web design and photography have slowly become

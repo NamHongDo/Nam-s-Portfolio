@@ -136,15 +136,31 @@ p {
 /*----------- menu base styles -----------*/
 nav {
   background: #333; }
+  nav #toggleBtnContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+  nav .open {
+    display: block; }
+  nav .hamburgerBtn {
+    display: block;
+    width: 7rem;
+    height: 2.75rem;
+    background-image: url("../images/menuOpenWhite.png");
+    background-color: rgba(51, 51, 51, 0.1);
+    background-position: 2vw center;
+    background-repeat: no-repeat;
+    border: 0 none; }
   nav ul {
+    display: none;
     list-style-type: none;
     padding: 0; }
     nav ul a {
       text-decoration: none;
       text-align: center;
       color: #fff;
-      display: none;
-      padding: 10px; }
+      padding: 10px;
+      display: block; }
     nav ul li:first-child a:hover {
       color: #e6e600; }
     nav ul li:nth-child(2) a:hover {
@@ -181,6 +197,7 @@ nav {
   margin-bottom: 2rem;
   padding: 3rem 0; }
   #bio h1 {
+    font-size: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem; }
     #bio h1 #span1 {
@@ -199,7 +216,7 @@ nav {
 .parallax h4 {
   padding-top: 8rem;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #fff;
   text-shadow: 2px 2px 4px #000000; }
 
@@ -244,6 +261,7 @@ nav {
   vertical-align: middle;
   position: relative; }
   .homeButtonBox a {
+    text-decoration: none !important;
     background-color: #fff;
     color: #333;
     border: 2px solid #333;
@@ -270,6 +288,7 @@ nav {
   padding: 3rem 0; }
 
 #flexBox1 {
+  margin: 0 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
@@ -322,15 +341,36 @@ nav {
 
 /*----------- END WEBSITE -----------*/
 /*----------- WEBSITE TEMPLATE -----------*/
-#templateWrapper {
-  max-width: 375px; }
+/*----------- WEBSITE TEMPLATE -----------*/
+.templateWrapper {
+  padding: 4rem 0;
+  max-width: 95vw;
+  margin: 0 auto; }
+  .templateWrapper h1 {
+    padding-bottom: 5rem; }
+  .templateWrapper p {
+    padding: 3rem 0;
+    text-align: center;
+    line-height: 3rem; }
 
+#templateWrapper1 figure {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  #templateWrapper1 figure img {
+    width: 90%; }
+
+/*----------- END WEBSITE TEMPLATE -----------*/
 /*----------- END WEBSITE TEMPLATE -----------*/
 /*----------- PHOTOGRAPHY  -----------*/
 #main2 h1 {
-  color: #4285f4; }
+  color: #4285f4;
+  font-size: 3rem;
+  padding: 3rem 0; }
 
 #flexbox2 {
+  margin: 0 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
@@ -384,6 +424,8 @@ nav {
   nav {
     display: flex;
     justify-content: space-between; }
+    nav #toggleBtnContainer {
+      display: none; }
     nav ul {
       display: flex;
       justify-content: center; }
@@ -400,6 +442,8 @@ nav {
     nav .social {
       margin: 0; }
   /*----------- WEBSITE -----------*/
+  #hamburgerBtn {
+    display: none; }
   #flexBox1 .websiteContainers {
     flex-basis: 450px; }
     #flexBox1 .websiteContainers figure {

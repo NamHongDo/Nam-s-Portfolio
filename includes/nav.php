@@ -1,5 +1,7 @@
-
-  <ul>
+<div id="toggleBtnContainer">
+  <button onclick="toggleMenu()" class="hamburgerBtn"></button>
+</div>
+  <ul id="primaryNav" class="dropdown-content">
     <?php
       foreach ($navItems as $item){
         echo "<li><a href=\"$item[slug]\">$item[title]</a></li>";

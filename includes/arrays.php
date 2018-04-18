@@ -80,14 +80,6 @@
           display     =>"NSSpic1",
           templateKey =>"NSS1"
           ),
-          array(
-            header      =>"Electric Air",
-            description =>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-              orci luctus et",
-            display     =>"EApic1",
-            templateKey =>"EA2"
-            ),
     );
     //website info for website-template.php
 $websDetails=array(
@@ -103,15 +95,6 @@ $websDetails=array(
       and tasty drinks</br></br>
       As a frequent customer to the shop, I offered the owner to build him a
       website to show case his craft and improve the shop's online presence  ",
-      description2=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et",
-      description3=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et",
-      description4=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et"
   ),
   "NSS1" => array(
       title =>"North Shore Safety - Wordpress Website",
@@ -127,34 +110,6 @@ $websDetails=array(
       old website which was built in 2008. The company wanted the new website to
       be mobile friendly, and the ability to publish their new products on their
       site by themselves in the future. ",
-      description2=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et",
-      description3=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et",
-      description4=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et"
-  ),
-  "EA2" => array(
-      title =>"Electric Air - Ecommerce Website",
-      photo1=>"EApic3",
-      photo2=>"EApic4",
-      photo3=>"EApic5",
-      photo4=>"EApic6",
-      description1=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et",
-      description2=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et",
-      description3=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et",
-      description4=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-       Fusce facilisis turpis felis. Vestibulum ante ipsum primis in faucibus
-        orci luctus et"
       ),
     );
     //albums cover on photography.php

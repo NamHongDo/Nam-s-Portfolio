@@ -1,6 +1,9 @@
 nav{
   display:flex;
   justify-content:space-between;
+  #toggleBtnContainer{
+    display:none;
+  }
   ul{
     display: flex;
     justify-content:center;
@@ -25,7 +28,9 @@ nav{
 }
 
 /*----------- WEBSITE -----------*/
-
+  #hamburgerBtn{
+    display:none;
+  }
     #flexBox1{
       .websiteContainers{
         figure{
